@@ -1,6 +1,7 @@
 import { MakeofolioProvider } from "@/components/Makeofolio";
 import MainScreen from "@/layout/MainScreen";
 import { TitleUpdate } from "@/utils/TitleUpdate";
+import Banner from '../PageComponent/Banner';
 
 
 
@@ -9,7 +10,7 @@ const Home = () => {
    <MakeofolioProvider >
       <TitleUpdate />
       <MainScreen>
-        <p>Hello World</p>
+        <Banner/>
       </MainScreen>
     </MakeofolioProvider>
   )
