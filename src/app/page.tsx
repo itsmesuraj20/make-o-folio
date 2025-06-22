@@ -1,4 +1,4 @@
-import { MakeofolioProvider } from "@/components/Makeofolio";
+import { MakeofolioProvider } from "@/components/Context/Makeofolio";
 import MainScreen from "@/layout/MainScreen";
 import { TitleUpdate } from "@/utils/TitleUpdate";
 import Banner from '../PageComponent/Banner';
@@ -7,10 +7,10 @@ import Banner from '../PageComponent/Banner';
 
 const Home = () => {
   return (
-   <MakeofolioProvider >
+    <MakeofolioProvider >
       <TitleUpdate />
       <MainScreen>
-        <Banner/>
+        <Banner />
       </MainScreen>
     </MakeofolioProvider>
   )
